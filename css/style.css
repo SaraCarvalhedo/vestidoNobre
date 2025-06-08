@@ -147,7 +147,7 @@ main{
     padding:1vh;
     color: var(--cor-caramelo);
     font-size: 1.5rem;
-}
+   }
 .card-image{
     align-self: center;
     height: 22vh;
@@ -156,30 +156,28 @@ main{
 .container-cards2{
     align-self: center;
     display:flex;
-    width: 90vw;
-    padding: 2vh 0;
     flex-direction: row;
     justify-content: center;
+    max-width: 100%;
     align-items: center;
+    width: 120rem;
+    padding: 2vh 0;
     column-gap: 2vw;
     row-gap: 2vh;
-    list-style: none;
     flex-wrap: wrap;
 
 }
 .card2{
-    align-self: flex-start;
-    flex: 0 1 15vw;
+    width: 20rem;
     display:flex;
-    min-width: 15vw;
-    min-height: 8vw;
+    height: 16rem;
     border-radius: 5%;
     background-color: var(--cor-cinza);
 
 }
 .card-image2{
     align-self: center;
-    height: 10vh;
+    height: 12vh;
     
 }
 .card2_content{
