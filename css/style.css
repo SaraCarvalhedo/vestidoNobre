@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@400..700&family=Emilys+Candy&family=WDXL+Lubrifont+TC&display=swap');
+@import url(./header.css);
+@import url(./footer.css);
+
+:root{
+    --cor-verdee: #13594D;
+    --cor-verdec: #A3B781;
+    --cor-marrome: #5D3B16;
+    --cor-marromc: #9A6533;
+    --cor-bege: #c19c84;
+    --cor-rosa:#D73647;
+    --cor-branco: whitesmoke;
+    --cor-cinza: rgb(234, 229, 229);
+    --cor-caramelo: #D37552;
+    --cor-terracota:  #B65538;
+    --cor-marromn:#73350c;
+    --cor-begen:#EAD7C6;
+    --cor-musgo:#74A363;
+    --cor-mostarda: #FFBE2C;
+}
+html{
+   height: 100vh;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Emilys Candy", serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--cor-branco);
+   
+}
+main{
+    flex:1;
+    display:flex;
+    flex-direction:
+    column;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: auto;
+    margin-top: 12vh;
+    padding:2vh;
+    color: var(--cor-caramelo);
+   
+}
+.button01{
+    border: 1px solid  var(--cor-caramelo);
+    border-radius: 15px;
+    max-width:60%;
+    padding: 2vh 1vw;
+    background-color:  var(--cor-caramelo);
+    color: var(--cor-branco);
+    font-size: 2vh;
+}
+.button01:hover{
+    border: 2px solid var(--cor-caramelo);
+    background-color: var(--cor-branco);
+    color: var(--cor-caramelo);
+}
+.button02{
+    margin-top: 5%;
+}
+.box01{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width:30vw;
+    background-color: var(--cor-begen);
+    border-radius: 15px;
+    padding: 3% 0.5%;
+    
+}
+.box01 h1{
+    color: var(--cor-caramelo);
+    font-size: 2rem;
+}
+
+.box02{
+    color: var(--cor-marromc);
+    margin: 3%;
+    font-size: 1.5rem;
+}
+
+.box03{
+    width: 80%;
+    height: 1.5rem;
+    border: 1px dashed  var(--cor-marromc);
+    border-radius: 8px;
+    padding:0.5%;
+    color: var(--cor-marromc);
+    margin: 0.5%;
+}
+
+
+.container_text{
+    align-self: center;
+    height:10%;
+    font-size: 8vh;
+    font-style: italic;
+    margin-top: 2vh;
+    margin-bottom:5vh;
+    color: var(--cor-begen);
+    text-align: center;
+
+}
+.container-cards{
+    align-self: center;
+    display:flex;
+    max-width: 100%;
+    width: 90vw;
+    height: 90%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    row-gap: 2vh;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.card{
+    display:flex;
+    flex: 0 1 30vh;
+    height:30vh;
+    border-radius: 50%;
+    background-color: var(--cor-cinza);
+
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    text-align: center;
+    padding:1vh;
+    color: var(--cor-caramelo);
+    font-size: 1.5rem;
+}
+.card-image{
+    align-self: center;
+    height: 22vh;
+}
+
+.container-cards2{
+    align-self: center;
+    display:flex;
+    width: 90vw;
+    padding: 2vh 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    row-gap: 2vh;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.card2{
+    align-self: flex-start;
+    flex: 0 1 15vw;
+    display:flex;
+    min-width: 15vw;
+    min-height: 8vw;
+    border-radius: 5%;
+    background-color: var(--cor-cinza);
+
+}
+.card-image2{
+    align-self: center;
+    height: 10vh;
+    
+}
+.card2_content{
+    flex: 0 1 auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2vh 1vw;
+    border-radius: 7%;
+    background-color: var(--cor-branco);
+    color: var(--color-marromc);
+}
+.container_buttons{
+    flex-shrink: 1;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    
+  
+}
+.container_buttons a{
+    align-self: flex-end;
+    display: block;
+    max-height: 4.5rem;
+    font-size: 2vh;
+    
+}
+.container_buttons input{
+    display: block;
+    font-size: 2vh;
+}
+
+.title_cad{
+    display: flex;
+
+}
+.title_cad i{
+    font-size: 2rem;
+    margin-right: 1vw;
+}
+
+.section_title{
+    height: 6vh;
+    margin-bottom: 1vh;
+    font-size: 5vh;
+    text-align: center;
+    color: var(--cor-caramelo);
+}
+.main_pages{
+    margin-top: 0vh;
+    margin-bottom: 10vh;
+}
+
+.fake-scroll{
+    height: 150vh;
+    background-color: brown;
+}

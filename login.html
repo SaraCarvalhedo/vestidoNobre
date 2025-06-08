@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/woman-clothes.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="index.html"><img class= "logo" src="img/logo20.png" alt="Mulher de Vestido Rosa Flamejante">
+                </a>
+            </li>
+            <li>
+                <a href="#"></a>
+            </li>
+            <li>
+                <li>
+                    <a href="#">Meus Pedidos</a>
+                </li>
+                <li>
+                    <a href="#">Nossas Lojas</a>
+                </li>
+                <li>
+                    <a href="#">Atendimento</a>
+                </li>
+                <li>
+                    <a href="#">Promoções</a>
+                </li>    
+                <li>
+                <a class="button01" href="login.html">Iniciar Sessão 
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <form action="codigo.php" method="post">
+            <div class="box01">
+                <h1>Login</h1>
+                <label class="box02"for="user">Usuário</label>
+                <input class="box03"type="email" name="user" id="user"
+                placeholder="exemplo@email.com">
+
+                <label class="box02"for="senha">Senha</label>
+                <input class="box03"type="password" name="senha" id="senha"
+                placeholder="senha de 8 dígitos">
+                <div class="container_buttons">
+                    <input class="button01 button02 "type="submit"value="Enviar">
+                    <a class="button01" href="new.html">Cadastrar
+                    </a>
+                </div> 
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <a href="#logo-header">
+                <img class="logo2" src="img/logo20.png" alt="Vestido Nobre">
+            </a>
+        </div>
+        <div class="form_pag">
+            <h6>Formas de Pagamento</h6>
+            <ul> 
+                <li><i class="fa-brands fa-cc-visa"></i></li>
+                <li>
+                    <i class="fa-brands fa-cc-mastercard"></i> 
+                </li>
+                <li>
+                    <i class="fa-brands fa-pix"></i>
+                </li>
+            </ul>    
+        </div>
+        <nav>
+            <ul>Contatos: 
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

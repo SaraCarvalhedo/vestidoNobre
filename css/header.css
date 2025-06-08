@@ -1,0 +1,46 @@
+header{
+    height: 12vh;
+    width: 100%;
+    background-color: var(--cor-begen);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 0;
+    
+}
+.logo{
+    padding:  0;
+    height: 12vh;
+}
+header ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+}
+
+header a{
+    font-size:25px;
+    font-style: italic;
+    text-decoration: none;
+    color: var(--cor-caramelo);
+}
+
+header a:hover{
+    color: var(--cor-marromc);
+
+}
+
+header h1{
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: var(--cor-verdee);
+}
+
+input::placeholder{
+    color: var(--cor-marromc);
+    font-style: italic;
+    font-size: 18px;
+}
+
+
