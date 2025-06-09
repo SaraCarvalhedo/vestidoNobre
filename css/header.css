@@ -13,6 +13,7 @@ header{
 }
 header ul{
     display:flex;
+    width:100vw;
     align-items: center;
     list-style-type: none;
     justify-content: space-evenly;
